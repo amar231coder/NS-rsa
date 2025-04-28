@@ -38,11 +38,14 @@ Security Note:
 In practice, RSA is generally used to encrypt small pieces of data (like symmetric AES keys), not large data files, because RSA encryption is computationally expensive.
 
 Original Message: Hello, this is a test message!
+
 Encrypted Message (Base64): hY0eMWDSZQ5i+Qo1eWl1...
+
 Decrypted Message: Hello, this is a test message!
 
 
 Result:
+
 The RSA implementation successfully encrypts and decrypts data. It generates a public and private key pair, encrypts a message using the public key, and then decrypts it back to its original form using the private key. The process ensures secure data transmission, and the encrypted message is logged in Base64 format for readability. The implementation is verified with a sample plaintext message, demonstrating the integrity of encryption and decryption
 
 
